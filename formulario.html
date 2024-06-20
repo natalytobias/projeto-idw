@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/menu-fixo.css">
+</head>
+<body>
+    <header class="menu-fixo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="encomendas.html">Serviços</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+         <div class="container-encomendas">
+                <img src="imagens/logo_site.png" alt="" id="logo-encomendas">
+            </div>
+
+        <div id="informacoes-produtos" class="box-fundo">
+            <h2>Informações do Produto </h2>
+                <h4>* Escolha a cor: </h4>
+                <p class="obs">Obs: As cores mostradas no seletor são as que estão disponiveis.</p>
+                <select name="cores" id="cores-selector">
+                    <option selected disabled value="">--</option>
+                    <option value="vermelho">vermelho</option>
+                    <option value="azul">azul</option>
+                    <option value="amarelo">amarelo</option> 
+                    <option value="bege">bege</option>
+                    <option value="preto">preto</option>
+                    <option value="branco">branco</option>
+                </select>
+                <h4>* Escolha o tamanho da agulha: </h4>
+                <p class="obs">Obs: o tamanho da agulha altera o tamanho final da peça</p>
+                <select name="tamanho-agulha" id="tamanho-agulha-selector">
+                    <option selected disabled value="">--</option>
+                    <option value="dois">2 mm</option>
+                    <option value="tres">3 mm</option>
+                    <option value="quatro">4 mm</option> 
+                    <option value="cinco">5 mm</option>
+                    <option value="seis">6 mm</option>
+                    <option value="sete">7 mm</option>
+                </select>
+                <br>
+                <br>
+                <textarea id="campo-observacao" name="mensagem" placeholder="Coloque aqui alguma observação, se é para presente e etc" rows="5" cols="89"></textarea>
+        </div>
+
+        <div id="endereco" class="box-fundo">
+            <h2>Informações Para entrega</h2>
+            <label for="campo-bairro">* Bairro: </label>
+            <input id="campo-bairro" type="text" required>
+            <br>
+            <label for="campo-numero">* Número: </label>
+            <input id="campo-numero" type="text" placeholder="" required>
+            <br>
+            <label for="campo-logadouro">* Rua: </label>
+            <input id="campo-logadouro" type="text" placeholder="" required>
+            <br>
+            <label for="campo-cep">* CEP: </label>
+            <input id="campo-cep" type="text" placeholder="xxxxx-xxx" required>
+        </div>
+    </main>
+
+    <button class="botao-geral" id="botao-encomenda">FAZER ENCOMENDA</button>
+
+    <script src="js/encomendas.js"></script>
+</body>
+</html>

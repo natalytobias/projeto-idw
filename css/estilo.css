@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(230, 208, 242);
+    place-items: center;
+    display: grid;
+}
+
+h1{
+    font-family: "Balsamiq Sans", sans-serif;
+    color: #6f228d;
+    text-align: center;
+    font-size: 50px;
+}
+
+/*estilização de boxes de fundo*/
+
+.box-fundo{
+    background-color:  rgba(240, 255, 255, 0.508);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/*estilização de produtos */
+.foto-produto{
+    max-width: 300px;
+    margin-left: 15px;
+}
+
+.produto-individual{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#grade-produtos{
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+.produtos{
+    display: flex;
+    gap: 10px;
+    margin-top: 90px;
+    margin-bottom: 10px;
+}
+
+h3{
+    text-align: center;
+}
+
+.descricao{
+    text-align: center;
+}
+
+a.botao-form{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-color: #6f228d;
+    padding: 3%;
+    border-radius: 5px;
+}
+a.botao-form:hover{
+    font-size: 20px;
+    color: #6f228d;
+    background-color: #916b96;
+}
+
+.container-encomendas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+/*contato.html*/
+#pessoal{
+    margin-top: 200px;
+    flex-direction: column;
+    display:flex;
+    align-items: center;
+    text-align: center;
+    
+}
+#foto-perfil{
+    width: 200px;
+    margin-right: 10px;
+    border-radius: 100px;
+    
+}
+
+#sobre-mim-desc{
+    text-align: center;
+    
+}
+
+#menu-links{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+
+/*formulario.html*/
+.bloco-form{
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid rgb(142, 156, 144);
+    border-radius: 10px;
+    background-color:rgb(218, 229, 219);
+    
+}
+
+h2{
+    font-family: "Balsamiq Sans", sans-serif;
+    color: #6f228d;
+    text-align: center;
+}
+
+#informacoes-produtos{
+    display: flex;
+    flex-direction: column;
+}
+#endereco{
+    display: flex;
+    flex-direction: column;
+}
+.obs{
+    font-size: small;
+}
+
+/*cadastro.html*/
+.cadastro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 400px;
+    height: 350px;
+}
+.topo-pessoal{
+    display: inline;
+}
+#informacoes-pessoais{
+    padding-bottom: 40px;
+}
+
+/*botão geral*/
+.botao-geral{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #6f228d;
+    border-radius: 5px;
+    border-color: #6f228d;
+}
+
+/*logos*/
+#logo-principal{
+    width: 700px;
+    margin-top: 100px;
+}
+#icon-cadastro{
+    width: 100px;
+}
+#logo-encomendas{
+    width: 200px;
+}
+
